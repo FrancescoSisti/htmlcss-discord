@@ -1,36 +1,12 @@
-/* Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* Generics */
 body {
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     border: 2px dashed black;
-
 }
 
-.header-container {
-    background-color: rgb(173, 216, 230);
-    min-height: 80px;
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.header-box {
-    background-color: rgb(218, 165, 33);
-    width: 80%;
-    min-height: 40px;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    border: 2px dashed black;
-    font-size: larger;
+/* Header */
+.navbar {
+    height: 80px;
 }
 
 .pink-container {
