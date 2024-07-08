@@ -8,6 +8,39 @@ header {
     background-color: rgb(37, 94, 233);
 }
 
+h2 {
+    margin: 0 60px;
+    font-size: 50px;
+}
+
+h3 {
+    margin: 10px 0;
+    padding: 0 5px;
+}
+
+i {
+    padding-right: 5px;
+}
+
+a {
+    padding: 0 30px;
+    color: white;
+    text-decoration: none;
+}
+
+#main-desc {
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+    margin: 0 60px;
+}
+
+.flex {
+    display: flex;
+}
+
 /* Header */
 .navbar {
     height: 80px;
@@ -22,15 +55,14 @@ header {
     /* background-color: rgb(49, 97, 224); */
 }
 
-.navbar-menu * {
+.navbar-menu {
     flex-grow: 1;
     text-align: center;
-    color: white;
-    text-decoration: none;
+
 }
 
 .navbar-actions {
-    text-align: center;
+    text-align: left;
 }
 
 .navbar-button {
@@ -42,7 +74,17 @@ header {
 }
 
 .navbar-logo {
-    text-align: center;
+    text-align: right;
+}
+
+
+/* Utils */
+.button {
+    border: 0;
+    padding: 5px 15px;
+    border-radius: 40px;
+    font-weight: 700;
+    margin-top: 30px;
 }
 
 /* Welcome Section */
@@ -71,30 +113,35 @@ header {
     font-size: 60px;
 }
 
-.pres {
-    font-size: 20px;
+.webapp {
+    background-color: rgb(35, 39, 42);
+    color: white;
+    margin-left: 20px;
 }
 
-.white-container {
-    display: flex;
-    flex-direction: row;
+/* Funcionality Section */
+.funcionality-img {
     padding: 50px;
-    flex-wrap: nowrap;
     justify-content: center;
 }
 
-.left-column {
+.image-side {
     min-height: 500px;
     width: 50%;
-    background-color: rgb(29, 144, 255);
-    border: 2px dashed black;
+    /* background-color: rgb(29, 144, 255);
+    border: 2px dashed black; */
+    justify-content: right;
+    align-items: center;
 }
 
-.right-column {
+.funcionality-description {
     min-height: 500px;
     width: 30%;
-    background-color: rgb(255, 191, 203);
-    border: 2px dashed black;
+    /* background-color: rgb(255, 191, 203);
+    border: 2px dashed black; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .grey-container {
@@ -106,7 +153,7 @@ header {
     background-color: rgb(211, 211, 211);
 }
 
-.green-section {
+.big-section {
     background-color: rgb(35, 139, 33);
     min-height: 1000px;
     width: 80%;
